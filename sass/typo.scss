@@ -18,12 +18,21 @@
     font-weight: 900;
 }
 
+.noto900{
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+}
+
 .font12{
     font-size: 12px;
 }
 
 .font16{
     font-size: 16px;
+}
+
+.font28{
+    font-size: 28px;
 }
 
 .font31{
@@ -48,4 +57,16 @@
 
 .lineH48{
     line-height: 48px;
+}
+
+.espaceL2{
+    letter-spacing: 2px;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.strike{
+    text-decoration: line-through;
 }

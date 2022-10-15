@@ -1,8 +1,90 @@
+.jost400 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.jost600 {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+
+.jost700 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+
+.jost900 {
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+}
+
+.noto900 {
+  font-family: "Noto Serif KR", serif;
+  font-weight: 900;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font28 {
+  font-size: 28px;
+}
+
+.font31 {
+  font-size: 31px;
+}
+
+.font39 {
+  font-size: 39px;
+}
+
+.lineH16 {
+  line-height: 16px;
+}
+
+.lineH24 {
+  line-height: 24px;
+}
+
+.lineH35 {
+  line-height: 35px;
+}
+
+.lineH48 {
+  line-height: 48px;
+}
+
+.espaceL2 {
+  letter-spacing: 2px;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
 .Intro {
   display: flex;
   justify-content: center;
   margin-bottom: 38px;
   width: 100%;
+}
+.Intro .Chemin {
+  text-align: left;
+  padding: 10px 77px;
+  width: 100%;
+}
+.Intro .Chemin a {
+  color: #0C0C0D;
+  text-decoration: none;
 }
 .Intro .ContenuIntro {
   display: flex;
@@ -44,7 +126,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 58px 0px;
+  padding: 58px 0px;
+  margin-top: 24px;
   max-width: 555px;
   width: 40%;
 }
@@ -59,17 +142,37 @@
 .Presentation .ContenuPresentation {
   display: flex;
 }
-
-.Produit .ContenuProduit {
-  margin-bottom: 60px;
+.Presentation .ContenuPresentation .Explication {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 28%;
+  height: 236px;
+  padding-top: 72px;
+  position: relative;
+  right: 150px;
 }
+
 .Produit .ContenuProduit .grid {
   display: grid;
   grid-template-columns: repeat(2, 604px);
   justify-content: center;
+  width: 100%;
 }
-.Produit .ContenuProduit .grid div {
-  padding: 80px;
+.Produit .ContenuProduit .grid .droiteP {
+  text-align: right;
+}
+.Produit .ContenuProduit .grid .Text {
+  padding: 77px;
+}
+.Produit .ContenuProduit .grid .Text h4 {
+  margin-bottom: 5px;
+}
+.Produit .ContenuProduit .grid .Text p {
+  margin-bottom: 25px;
+}
+.Produit .ContenuProduit .grid .Text div p {
+  margin-bottom: 0px;
 }
 
 .Articles {
@@ -77,6 +180,7 @@
   justify-content: center;
 }
 .Articles .ContenuArticles {
+  padding: 60px 0px;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -87,20 +191,33 @@
 }
 .Articles .ContenuArticles .slid {
   display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.Articles .ContenuArticles .slid .Canap {
+  margin-right: 15px;
 }
 .Articles .ContenuArticles .slid .Canap .ImgArticle {
-  display: flex;
+  position: relative;
+}
+.Articles .ContenuArticles .slid .Canap .ImgArticle .Like {
+  position: absolute;
+  top: 7px;
+  right: 7px;
 }
 .Articles .ContenuArticles .slid .Canap .descriptionArticle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  height: 125px;
+  margin-top: 4px;
   position: relative;
 }
 .Articles .ContenuArticles .slid .Canap .descriptionArticle .panier {
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 15px;
+  top: 8px;
 }
 .Articles .ContenuArticles .slid .Ballon .descriptionArticle {
   display: flex;
@@ -122,9 +239,8 @@
 .EnSavoirPlus .ContenuESP {
   display: flex;
   justify-content: space-between;
-  padding: 40px 0px;
+  padding: 40px 40px;
   width: 100%;
-  margin: 0px 40px;
 }
 .EnSavoirPlus .ContenuESP .Info {
   display: flex;
@@ -143,56 +259,19 @@
   text-align: center;
 }
 
-.jost400 {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.jost600 {
-  font-family: "Jost", sans-serif;
-  font-weight: 600;
+section .positionOmbre {
+  position: relative;
+  width: 100%;
 }
-
-.jost700 {
-  font-family: "Jost", sans-serif;
-  font-weight: 700;
-}
-
-.jost900 {
-  font-family: "Jost", sans-serif;
-  font-weight: 900;
-}
-
-.font12 {
-  font-size: 12px;
-}
-
-.font16 {
-  font-size: 16px;
-}
-
-.font31 {
-  font-size: 31px;
-}
-
-.font39 {
-  font-size: 39px;
-}
-
-.lineH16 {
-  line-height: 16px;
-}
-
-.lineH24 {
-  line-height: 24px;
-}
-
-.lineH35 {
-  line-height: 35px;
-}
-
-.lineH48 {
-  line-height: 48px;
+section .positionOmbre img {
+  position: absolute;
+  right: 0px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
