@@ -5,129 +5,168 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Test Technique Front pour bobochic" />
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="main.js" defer></script>
+        <link rel="icon" href="img/icone/favicon.ico">
+        <link rel="stylesheet" href="style/reset.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="js/main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
             <div>
                 <a href="">Acceuil</a> > <a href="">Page 1</a> > <a href="">Page 2</a>
             </div>
-            <section>
-                <div>
-                    <img src="img\logo\bobochic.svg" alt="Logo">
-                    <img src="img\icone\x.svg" alt="Icone">
-                    <img src="img\logo\bloon.svg" alt="Logo">
-                </div>
-                <p>L’alliance parfaite entre Ergonomie et design</p>
-                <img src="img\Bobochic_x_Tour-Eiffel_2.png" alt="Image Animer">
-                <p>Bobochic s’associe avec la jeune marque française Bloon pour une collection limitée des plus cocoonings !</p>
-                <p>Découvrez 3 modèles de siège ballon pour sublimer votre espace de travail, au bureau ou à la maison !</p>
-            </section>
-            <section>
-                <p>Bloon c’est quoi ?</p>
-                <p>C’est un siège ballon innovant et ergonomique. Conçu par ses deux créateurs <span>Kévin Rayes</span> et <span>Raphael Mille</span>, tous deux Osthéopathe et Designer.</p>
-                <div>
-                    <img src="img\Picture\image_3.png" alt="Photo">
-                    <img src="img\Picture\image_5.png" alt="Photo">
-                </div>
-            </section>
-            <section>
-                <img src="img\image_11.png" alt="Image">
-                <div>
-                    <p><span>Ce siège d’une nouvelle génération révolutionne l’assise et l’ergonomie.</span> Vous ne vous en lasserez plus !</p>
-                    <p>Très léger, il se transporte facilement et reste toujours droit grâce à sa ceinture ! Nul risque de tomber ou d’avoir un ballon déformé, tout est pensé pour que vous soyez assis confortablement, sans avoir mal au dos.</p>
-                </div>
-            </section>
-            <section>
-                <div>
-                    <div>
-                        <p>Une légère instabilité permet de tonifier progressivement vos muscles tout en assurant un confort de qualité. En effet, sa forme ronde favorise les micros mouvements continus ce qui permet de stabiliser votre corps tout en douceur.</p>
-                        <p>Si vous souhaitez le ramener chez vous ou le ranger dans un petit espace, il se gonfle et se dégonfle très rapidement grâce à une <spam>pompe incluse et un accès facile à la valve.</spam></p>
+            <section class="Intro">
+                <div class="ContenuIntro">
+                    <div class="logoTitre">
+                        <img src="img\logo\bobochicxbloon.svg" alt="Logo">
+                        <h1 class="jost600 font16 lineH24px">L’ALLIANCE PARFAITE ENTRE ERGONOMIE ET DESIGN</h1>
                     </div>
-                    <img src="img\DSC_2279-2.png" alt="Image">
-                </div>
-                <div>
-                    <img src="img\DSC_2218-1.png" alt="Image">
-                    <div>
-                        <p>La touche Bobochic</p>
-                        <p>Dans cette collection capsule, <span>Bobochic</span> et <span>Bloon</span> se sont réunis pour créer le siège ballon à l’image des deux marques.</p>
-                        <p>Si la forme et la technologie ne change pas des autres produits <span>Bloon,</span> <span>Bobochic</span> a choisi son tissu le plus connu – le velours côtelé issu du Canapé <span>NIHAD</span> - pour revêtir les produits.</p>
-                        <p>Résultat : 3 teintes ultra tendances et chaleureuses, <span>parfaites pour votre intérieur ou votre bureau !</span></p>
+                    <img class="GIF" src="img\Bobochic_x_Tour-Eiffel_2.png" alt="Image Animer">
+                    <div class="description">
+                        <h2 class="jost700 font39 lineH48">Bobochic s’associe avec la jeune marque française Bloon pour une collection limitée des plus cocoonings !</h2>
+                        <h3 class="jost600 font16 lineH24">DÉCOUVREZ 3 MODÈLES DE SIÈGE BALLON POUR SUBLIMER VOTRE ESPACE DE TRAVAIL, AU BUREAU OU À LA MAISON !</h3>
                     </div>
                 </div>
             </section>
-            <section>
-                <p>Découvrez cette collection unique, design et ergonomique !</p>
-                <div>
+            <section class="Bloon">
+                <div class="ContenuBloon">
+                    <h4 class="jost700 font31 lineH35">Bloon c’est quoi ?</h4>
+                    <p class="jost400 font16 lineH24">C’est un siège ballon innovant et ergonomique. Conçu par ses deux créateurs <span class="jost600 font16 lineH24">Kévin Rayes</span> et <span  class="jost600 font16">Raphael Mille</span>, tous deux Osthéopathe et Designer.</p>
+                    <div class="Picture">
+                        <img src="img\Picture\image_3.png" alt="Photo">
+                        <img src="img\Picture\image_5.png" alt="Photo">
+                    </div>
+                </div>
+            </section>
+            <section class="Presentation">
+                <div class="ContenuPresentation">
+                    <img src="img\image_11.png" alt="Image">
                     <div>
+                        <p class="jost400 font16 lineH24"><span class="jost600 font16 lineH24">Ce siège d’une nouvelle génération révolutionne l’assise et l’ergonomie.</span> Vous ne vous en lasserez plus !</p>
+                        <p class="jost400 font16 lineH24">Très léger, il se transporte facilement et reste toujours droit grâce à sa ceinture ! Nul risque de tomber ou d’avoir un ballon déformé, tout est pensé pour que vous soyez assis confortablement, sans avoir mal au dos.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="Produit">
+                <div class="ContenuProduit">
+                    <div class="grid">
                         <div>
-                            <img src="img\Slide\slide1.png" alt="BELLA">
-                            <img src="img\icone\wishlist.svg" alt="Icone">
+                            <p class="jost400 font16 lineH24">Une légère instabilité permet de tonifier progressivement vos muscles tout en assurant un confort de qualité. En effet, sa forme ronde favorise les micros mouvements continus ce qui permet de stabiliser votre corps tout en douceur.</p>
+                            <p class="jost400 font16 lineH24">Si vous souhaitez le ramener chez vous ou le ranger dans un petit espace, il se gonfle et se dégonfle très rapidement grâce à une <spam class="jost600">pompe incluse et un accès facile à la valve.</spam></p>
                         </div>
+                        <img src="img\DSC_2279-2.png" alt="Image">
+                        <img src="img\DSC_2218-1.png" alt="Image">
                         <div>
-                            <p>BELLA</p>
-                            <div><img src="img\icone\Panier.svg" alt="Icone"></div>
-                            <p>Canapé convertible</p>
-                            <p>1 094€</p>
-                            <p>1 960€</p>
-                            <p>-45%</p>
-                            <p>4 COULEURS</p>
+                            <h4 class="jost700 font31 lineH35">La touche Bobochic</h4>
+                            <p class="jost400 font16 lineH24">Dans cette collection capsule, <span class="jost600">Bobochic</span> et <span class="jost600">Bloon</span> se sont réunis pour créer le siège ballon à l’image des deux marques.</p>
+                            <p class="jost400 font16 lineH24">Si la forme et la technologie ne change pas des autres produits <span class="jost600">Bloon,</span> <span class="jost600">Bobochic</span> a choisi son tissu le plus connu – le velours côtelé issu du Canapé <span class="900">NIHAD</span> - pour revêtir les produits.</p>
+                            <p class="jost400 font16 lineH24">Résultat : 3 teintes ultra tendances et chaleureuses, <span class="jost600">parfaites pour votre intérieur ou votre bureau !</span></p>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <img src="img\Slide\slide2.png" alt="BELLA">
-                            <img src="img\icone\wishlist.svg" alt="Icone">
+                </div>
+
+            </section>
+            <section class="Articles">
+                <div class="ContenuArticles">
+                    <h3 class="jost700 font31 lineH35">Découvrez cette collection unique, design et ergonomique !</h3>
+                    <div class="slid">
+                        <div class="Canap">
+                            <div class="ImgArticle">
+                                <img src="img\Slide\slide1.png" alt="BELLA">
+                                <img src="img\icone\wishlist.svg" alt="Icone">
+                            </div>
+                            <div class="descriptionArticle">
+                                <p class="jost600 font31 lineH35">BELLA</p>
+                                <div class="panier"><img src="img\icone\Panier.svg" alt="Icone"></div>
+                                <p class="jost400 font16 lineH24">Canapé convertible</p>
+                                <div class="prix">
+                                    <p class="jost600 font16 lineH24">1 094€</p>
+                                    <strike>
+                                        <p class="jost400 font16 lineH24">1 960€</p>
+                                    </strike>
+                                    <p class="jost400 font16 lineH24">-45%</p>
+                                </div>
+                                <p class="jost600 font12 lineH24">4 COULEURS</p>
+                            </div>
                         </div>
-                        <div>
-                            <p>LILLY</p>
-                            <div><img src="img\icone\Panier.svg" alt="Icone"></div>
-                            <p>Canapé convertible</p>
-                            <p>1 359€</p>
-                            <p>2 629€</p>
-                            <p>-45%</p>
-                            <p>4 COULEURS</p>
+                        <div class="Canap">
+                            <div class="ImgArticle">
+                                <img src="img\Slide\slide2.png" alt="BELLA">
+                                <img src="img\icone\wishlist.svg" alt="Icone">
+                            </div>
+                            <div class="descriptionArticle">
+                                <p class="jost600 font31 lineH35">LILLY</p>
+                                <div class="panier"><img src="img\icone\Panier.svg" alt="Icone"></div>
+                                <p class="jost400 font16 lineH24">Canapé convertible</p>
+                                <div class="prix">
+                                    <p class="jost600 font16 lineH24">1 359€</p>
+                                    <strike>
+                                        <p class="jost400 font16 lineH24">2 629€</p>
+                                    </strike>
+                                    <p class="jost400 font16 lineH24">-45%</p>
+                                </div>
+                                <p class="jost600 font12 lineH24">4 COULEURS</p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="img\Slide\slide1.png" alt="BELLA">
-                        </div>
-                        <div>
-                            <p>BLOON</p>
-                            <p>Siège Ballon BLOON tissu velours côtelé Taupe</p>
-                            <p>1 049€</p>
-                            <p>1 960€</p>
-                            <p>4 COULEURS</p>
+                        <div class="Ballon">
+                            <div class="ImgArticles">
+                                <img src="img\Slide\slide3.png" alt="BELLA">
+                            </div>
+                            <div class="descriptionArticle">
+                                <p class="font28 lineH48">BLOON</p>
+                                <p class="jost400 font16 lineH24">Siège Ballon BLOON tissu velours côtelé Taupe</p>
+                                <div class="prix">
+                                    <p class="jost600 font16 lineH24">1 049€</p>
+                                    <strike>
+                                        <p class="jost400 font16 lineH24">1 960€</p>
+                                    </strike>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
-                <div>
-                    <img src="img\icone\sav.svg" alt="Icone">
-                    <p>SERVICE CLIENT</p>
-                    <p>Nous sommes à votre écoute</p>
-                    <p>+33 1 76 36 12 35</p>
-                </div>
-                <div>
-                    <img src="img\icone\secure.svg" alt="Icone">
-                    <p>SÉCURITÉ</p>
-                    <p>Transporteurs spécialisés avec prise de RDV</p>
-                </div><div>
-                    <img src="img\icone\livraison.svg" alt="Icone">
-                    <p>LIVRAISON</p>
-                    <p>Transporteurs spécialisés avec prise de RDV</p>
-                </div><div>
-                    <img src="img\icone\4x.svg" alt="Icone">
-                    <p>4X SANS FRAIS</p>
-                    <p>Réglez en 4 fois sans frais avec ALMA</p>
-                </div><div>
-                    <img src="img\icone\france.svg" alt="Icone">
-                    <p>MARQUE FRANÇAISE</p>
-                    <p>Le savoir faire d’une marque française</p>
+            <section class="EnSavoirPlus">
+                <div class="ContenuESP">
+                    <div class="Info">
+                        <img src="img\icone\sav.svg" alt="Icone">
+                        <span>
+                            <p class="jost600 font16 lineH24">SERVICE CLIENT</p>
+                        </span>
+                        <p class="jost600 font12 lineH16">Nous sommes à votre écoute</p>
+                        <p class="jost600 font12 lineH16">+33 1 76 36 12 35</p>
+                    </div>
+                    <div class="Info">
+                        <img src="img\icone\secure.svg" alt="Icone">
+                        <span>
+                            <p class="jost600 font16 lineH24">SÉCURITÉ</p>
+                        </span>
+                        <p class="jost600 font12 lineH16">Transporteurs spécialisés avec prise de RDV</p>
+                    </div>
+                    <div class="Info">
+                        <img src="img\icone\livraison.svg" alt="Icone">
+                        <span>
+                            <p class="jost600 font16 lineH24">LIVRAISON</p>
+                        </span>
+                        <p class="jost600 font12 lineH16">Transporteurs spécialisés avec prise de RDV</p>
+                    </div>
+                    <div class="Info">
+                        <img src="img\icone\4x.svg" alt="Icone">
+                        <span>
+                            <p class="jost600 font16 lineH24">4X SANS FRAIS</p>
+                        </span>
+                        <p class="jost600 font12 lineH16">Réglez en 4 fois sans frais avec ALMA</p>
+                    </div>
+                    <div class="Info">
+                        <img src="img\icone\france.svg" alt="Icone">
+                        <span>
+                            <p class="jost600 font16 lineH24">MARQUE FRANÇAISE</p>
+                        </span>
+                        <p class="jost600 font12 lineH16">Le savoir faire d’une marque française</p>
+                    </div>
                 </div>
             </section>
         </main>

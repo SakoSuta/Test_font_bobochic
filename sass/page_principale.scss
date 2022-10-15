@@ -1,0 +1,153 @@
+.Intro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+    width: 100%;
+    .ContenuIntro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 1212px;
+        width: 90%;
+        .logoTitre{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            img{
+                width: 510.72px;
+                height: 64px;
+                margin-bottom: 10px;
+            }
+        }
+        .GIF{
+            width: 100%;
+            margin: 32px 0px;
+        }
+        .description{
+            height: 164px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+
+.Bloon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .ContenuBloon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 58px 0px;
+        max-width: 555px;
+        width: 40%;
+        p{
+            text-align: center;
+            margin: 32px 0px;
+        }
+        .Picture{
+            img{
+                margin: 0px 14px;
+            }
+        }
+    }
+}
+
+.Presentation{
+    .ContenuPresentation{
+        display: flex;
+    }
+}
+
+.Produit{
+    .ContenuProduit{
+        margin-bottom: 60px;
+        .grid{
+            display: grid;
+            grid-template-columns:repeat(2, 604px);
+            justify-content: center;
+            div{
+                padding: 80px;
+            }
+        }
+    }
+}
+
+.Articles{
+    display: flex;
+    justify-content: center;
+    .ContenuArticles{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        h3{
+            width: 604px;
+            margin-bottom: 27px;
+        }
+        .slid{
+            display: flex;
+            .Canap{
+                .ImgArticle{
+                    display: flex;
+                }
+                .descriptionArticle{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+                    .panier{
+                        position: absolute;
+                        right: 0px; bottom: 0px;
+                    }
+                }
+            }
+            .Ballon{
+                .descriptionArticle{
+                    display: flex;
+                    flex-direction: column;
+                   align-items: center;
+                }
+            }
+            .prix{
+                display: flex;
+                p{
+                    margin: 0px 7px;
+                }
+            }
+        }
+    }
+}
+
+.EnSavoirPlus{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .ContenuESP{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px;
+        width: 100%;
+        margin: 0px 40px;
+        .Info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 157px;
+            margin: 0px 10px;
+            span{
+                margin: 8px 0px;
+                p{
+                    width: 176px;
+                }
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

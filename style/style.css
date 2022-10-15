@@ -1,0 +1,198 @@
+.Intro {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+  width: 100%;
+}
+.Intro .ContenuIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1212px;
+  width: 90%;
+}
+.Intro .ContenuIntro .logoTitre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Intro .ContenuIntro .logoTitre img {
+  width: 510.72px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+.Intro .ContenuIntro .GIF {
+  width: 100%;
+  margin: 32px 0px;
+}
+.Intro .ContenuIntro .description {
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Bloon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.Bloon .ContenuBloon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 58px 0px;
+  max-width: 555px;
+  width: 40%;
+}
+.Bloon .ContenuBloon p {
+  text-align: center;
+  margin: 32px 0px;
+}
+.Bloon .ContenuBloon .Picture img {
+  margin: 0px 14px;
+}
+
+.Presentation .ContenuPresentation {
+  display: flex;
+}
+
+.Produit .ContenuProduit {
+  margin-bottom: 60px;
+}
+.Produit .ContenuProduit .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 604px);
+  justify-content: center;
+}
+.Produit .ContenuProduit .grid div {
+  padding: 80px;
+}
+
+.Articles {
+  display: flex;
+  justify-content: center;
+}
+.Articles .ContenuArticles {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.Articles .ContenuArticles h3 {
+  width: 604px;
+  margin-bottom: 27px;
+}
+.Articles .ContenuArticles .slid {
+  display: flex;
+}
+.Articles .ContenuArticles .slid .Canap .ImgArticle {
+  display: flex;
+}
+.Articles .ContenuArticles .slid .Canap .descriptionArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.Articles .ContenuArticles .slid .Canap .descriptionArticle .panier {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.Articles .ContenuArticles .slid .Ballon .descriptionArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Articles .ContenuArticles .slid .prix {
+  display: flex;
+}
+.Articles .ContenuArticles .slid .prix p {
+  margin: 0px 7px;
+}
+
+.EnSavoirPlus {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.EnSavoirPlus .ContenuESP {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+  width: 100%;
+  margin: 0px 40px;
+}
+.EnSavoirPlus .ContenuESP .Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 157px;
+  margin: 0px 10px;
+}
+.EnSavoirPlus .ContenuESP .Info span {
+  margin: 8px 0px;
+}
+.EnSavoirPlus .ContenuESP .Info span p {
+  width: 176px;
+}
+.EnSavoirPlus .ContenuESP .Info p {
+  text-align: center;
+}
+
+.jost400 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.jost600 {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+
+.jost700 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+}
+
+.jost900 {
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font31 {
+  font-size: 31px;
+}
+
+.font39 {
+  font-size: 39px;
+}
+
+.lineH16 {
+  line-height: 16px;
+}
+
+.lineH24 {
+  line-height: 24px;
+}
+
+.lineH35 {
+  line-height: 35px;
+}
+
+.lineH48 {
+  line-height: 48px;
+}
+
+/*# sourceMappingURL=style.css.map */
