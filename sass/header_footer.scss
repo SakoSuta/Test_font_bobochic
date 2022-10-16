@@ -1,0 +1,147 @@
+footer{
+    background-color: $black;
+    padding: 60px;
+    padding-bottom: 0px;
+    p, span, li, label{
+        color: $blanc;
+    }
+    .Footer{
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-areas: "h1 h1 h1 h4 h5 h6"
+                             "h2 h2 h2 h4 h5 h6"
+                             "h3 h3 h3 h4 h5 h6";
+        .Newsletter{
+            grid-area: h1;
+        }
+        .Contact{
+            grid-area: h2;
+        }
+        .Reseaux{
+            grid-area: h3;
+        }
+        .Produits{
+            grid-area: h4;
+        }
+        .Services{
+            grid-area: h5;
+        }
+        .MaisonBOBO{
+            grid-area: h6;
+        }
+        .Newsletter{
+            margin-bottom: 24px;
+            form{
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+                .Inscrit{
+                    display: flex;
+                    label{
+                        margin-bottom: 6px;
+                    }
+                    input{
+                        width: 402px;
+                        height: 48px;
+                        border: 0px;
+                        border-radius: 10px 0px 0px 10px;
+                        background-color: #F3F3F3;
+                    }
+                    button{
+                        width: 102px;
+                        height: 48px;
+                        border: 0px;
+                        border-radius: 0px 10px 10px 0px;
+                        // background-color: $blanc;
+                    }
+                }
+            }
+        }
+        .Contact{
+            width: 507px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            .espaceCont{
+                margin-bottom: 7px;
+            }
+            .BoutonCont{
+                display: flex;
+                img{
+                    padding: 8px 12px;
+                    padding-right: 0px;
+                    border-radius: 99px 0px 0px 99px;
+                    background-color: $blanc;
+                }
+                button{
+                    border: 0px;
+                    border-radius: 0px 99px 99px 0px;
+                    padding: 0px 16px 0px 10px;
+                    background-color: $blanc;
+                }
+            }
+        }
+        .Reseaux{
+            p{
+                margin-bottom: 7px;
+            }
+            .iconeR{
+                width: 287px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+        .Autres{
+            margin-right: 96px;
+            p{
+                margin-bottom: 15px;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .mention{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .mentionContenu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 32px;
+            width: 761px;
+            height: 56px;
+            border-radius: 10px;
+            background-color: #232326;
+            .mentionSpace{
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+            }
+        }
+    }
+}
+
+.CenterPaiement{
+    display: flex;
+    justify-content: center;
+}
+.paiements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    .iconPaie{
+        display: flex;
+        align-items: center;
+        img{
+            width: 33px;
+            height: 17px;
+        }
+    }
+    p{
+        min-width: 171px;
+    }
+}

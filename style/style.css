@@ -31,6 +31,10 @@
   font-size: 16px;
 }
 
+.font20 {
+  font-size: 20px;
+}
+
 .font28 {
   font-size: 28px;
 }
@@ -49,6 +53,10 @@
 
 .lineH24 {
   line-height: 24px;
+}
+
+.lineH26 {
+  line-height: 26px;
 }
 
 .lineH35 {
@@ -272,6 +280,150 @@ section .positionOmbre img {
   position: absolute;
   right: 0px;
   width: 100%;
+}
+
+footer {
+  background-color: #0C0C0D;
+  padding: 60px;
+  padding-bottom: 0px;
+}
+footer p, footer span, footer li, footer label {
+  color: #FFFFFF;
+}
+footer .Footer {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-areas: "h1 h1 h1 h4 h5 h6" "h2 h2 h2 h4 h5 h6" "h3 h3 h3 h4 h5 h6";
+}
+footer .Footer .Newsletter {
+  grid-area: h1;
+}
+footer .Footer .Contact {
+  grid-area: h2;
+}
+footer .Footer .Reseaux {
+  grid-area: h3;
+}
+footer .Footer .Produits {
+  grid-area: h4;
+}
+footer .Footer .Services {
+  grid-area: h5;
+}
+footer .Footer .MaisonBOBO {
+  grid-area: h6;
+}
+footer .Footer .Newsletter {
+  margin-bottom: 24px;
+}
+footer .Footer .Newsletter form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+footer .Footer .Newsletter form .Inscrit {
+  display: flex;
+}
+footer .Footer .Newsletter form .Inscrit label {
+  margin-bottom: 6px;
+}
+footer .Footer .Newsletter form .Inscrit input {
+  width: 402px;
+  height: 48px;
+  border: 0px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #F3F3F3;
+}
+footer .Footer .Newsletter form .Inscrit button {
+  width: 102px;
+  height: 48px;
+  border: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+footer .Footer .Contact {
+  width: 507px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+footer .Footer .Contact .espaceCont {
+  margin-bottom: 7px;
+}
+footer .Footer .Contact .BoutonCont {
+  display: flex;
+}
+footer .Footer .Contact .BoutonCont img {
+  padding: 8px 12px;
+  padding-right: 0px;
+  border-radius: 99px 0px 0px 99px;
+  background-color: #FFFFFF;
+}
+footer .Footer .Contact .BoutonCont button {
+  border: 0px;
+  border-radius: 0px 99px 99px 0px;
+  padding: 0px 16px 0px 10px;
+  background-color: #FFFFFF;
+}
+footer .Footer .Reseaux p {
+  margin-bottom: 7px;
+}
+footer .Footer .Reseaux .iconeR {
+  width: 287px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .Footer .Autres {
+  margin-right: 96px;
+}
+footer .Footer .Autres p {
+  margin-bottom: 15px;
+}
+footer .Footer .Autres li {
+  margin-bottom: 10px;
+}
+footer .mention {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .mention .mentionContenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 761px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #232326;
+}
+footer .mention .mentionContenu .mentionSpace {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.CenterPaiement {
+  display: flex;
+  justify-content: center;
+}
+
+.paiements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.paiements .iconPaie {
+  display: flex;
+  align-items: center;
+}
+.paiements .iconPaie img {
+  width: 33px;
+  height: 17px;
+}
+.paiements p {
+  min-width: 171px;
 }
 
 /*# sourceMappingURL=style.css.map */
