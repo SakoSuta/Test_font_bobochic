@@ -306,6 +306,9 @@ header .ContenuHeader .Recherche {
   align-items: center;
   justify-content: space-between;
 }
+header .ContenuHeader .Recherche .Logo img {
+  width: 200px;
+}
 header .ContenuHeader .Recherche .Conseil {
   display: flex;
   align-items: center;
@@ -316,6 +319,7 @@ header .ContenuHeader .Recherche .Conseil {
 header .ContenuHeader .Recherche .Conseil img {
   width: 24px;
   height: 24px;
+  margin-right: 6px;
 }
 header .ContenuHeader .Recherche .Conseil .textCons {
   display: flex;
@@ -510,6 +514,7 @@ footer .mention .mentionContenu .mentionSpace {
 .CenterPaiement {
   display: flex;
   justify-content: center;
+  padding: 13px 0px;
 }
 
 .paiements {
