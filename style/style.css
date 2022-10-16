@@ -67,6 +67,10 @@
   line-height: 48px;
 }
 
+.espaceL1 {
+  letter-spacing: 1px;
+}
+
 .espaceL2 {
   letter-spacing: 2px;
 }
@@ -282,6 +286,106 @@ section .positionOmbre img {
   width: 100%;
 }
 
+header .inedit {
+  display: flex;
+  justify-content: center;
+  background-color: #0C0C0D;
+  width: 100%;
+}
+header .inedit p {
+  color: #FFFFFF;
+}
+header .ContenuHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .ContenuHeader .Recherche {
+  padding: 18px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .ContenuHeader .Recherche .Conseil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 28px;
+  min-width: 160px;
+}
+header .ContenuHeader .Recherche .Conseil img {
+  width: 24px;
+  height: 24px;
+}
+header .ContenuHeader .Recherche .Conseil .textCons {
+  display: flex;
+  flex-direction: column;
+}
+header .ContenuHeader .Recherche form {
+  position: relative;
+  margin-right: 63px;
+}
+header .ContenuHeader .Recherche form img {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+header .ContenuHeader .Recherche form input {
+  width: 628px;
+  height: 48px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 12px 52px;
+  background-color: #F3F3F3;
+}
+header .ContenuHeader .Recherche .IconeHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+header .ContenuHeader nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 64px;
+  background-color: #F9F9F9;
+}
+header .ContenuHeader nav .Menu {
+  display: flex;
+  margin-right: 100px;
+}
+header .ContenuHeader nav .Menu img {
+  margin-right: 6px;
+}
+header .ContenuHeader nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 716px;
+}
+header .ContenuHeader nav ul .Red {
+  color: #E84D45;
+}
+header .ContenuHeader nav ul li {
+  min-width: max-content;
+  margin: 0px 10px;
+}
+header .ContenuHeader nav .Promo {
+  display: flex;
+  align-items: center;
+  border: 1px solid #8D8D8E;
+  border-radius: 99px;
+  margin-left: 180px;
+  padding: 4px 16px;
+  width: max-content;
+}
+header .ContenuHeader nav .Promo img {
+  margin-right: 6px;
+}
+header .ContenuHeader nav .Promo span {
+  min-width: 80px;
+}
+
 footer {
   background-color: #0C0C0D;
   padding: 60px;
@@ -293,25 +397,25 @@ footer p, footer span, footer li, footer label {
 footer .Footer {
   margin-bottom: 50px;
   display: grid;
-  grid-template-areas: "h1 h1 h1 h4 h5 h6" "h2 h2 h2 h4 h5 h6" "h3 h3 h3 h4 h5 h6";
+  grid-template-areas: "F1 F1 F1 F4 F5 F6" "F2 F2 F2 F4 F5 F6" "F3 F3 F3 F4 F5 F6";
 }
 footer .Footer .Newsletter {
-  grid-area: h1;
+  grid-area: F1;
 }
 footer .Footer .Contact {
-  grid-area: h2;
+  grid-area: F2;
 }
 footer .Footer .Reseaux {
-  grid-area: h3;
+  grid-area: F3;
 }
 footer .Footer .Produits {
-  grid-area: h4;
+  grid-area: F4;
 }
 footer .Footer .Services {
-  grid-area: h5;
+  grid-area: F5;
 }
 footer .Footer .MaisonBOBO {
-  grid-area: h6;
+  grid-area: F6;
 }
 footer .Footer .Newsletter {
   margin-bottom: 24px;
